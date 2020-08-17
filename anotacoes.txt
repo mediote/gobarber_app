@@ -1,0 +1,39 @@
+INICIANDO PROJETO
+
+ npm uninstall -g react-native-cli
+ npm i -g @react-native-community/cli
+ npx react-native init appgobarber --template react-native-template-typescript
+ yarn android
+
+PADRÕES DE ESTILO
+ yarn add eslint -D
+ yarn eslint --init
+ yarn add eslint-plugin-react@^7.19.0 @typescript-eslint/eslint-plugin@latest eslint-config-airbnb@latest eslint-plugin-import@^2.20.1 eslint-plugin-jsx-a11y@^6.2.3 @typescript-eslint/parser@latest -D
+ yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+ yarn add eslint-import-resolver-typescript -D
+
+
+ yarn add styled-components
+ yarn add @types/styled-components -D
+ yarn add @react-navigation/native
+ yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+ import 'react-native-gesture-handler' -> No começo do primeiro arquivo da aplicação
+ yarn add @react-navigation/stack
+ https://fonts.google.com/specimen/Roboto+Slab?selection.family=Roboto+Slab:wght@400;500
+
+ REACT NATIVE VECTOR ICONS
+   yarn add react-native-vector-icons
+
+   Editar o arquivo  "android/app/build.gradle"
+
+                      project.ext.vectoricons = [
+                    iconFontNames: ['Feather.ttf']
+                  ];
+
+                  apply from :"../../node_modules/react-native-vector-icons/fonts.gradle"
+
+ yarn add react-native-iphone-x-helper
+ yarn add @unform/core @unform/mobile
+ yarn add yup / yarn add -D @types/yup
+ yarn add axios
+ yarn add @react-native-community/async-storage
