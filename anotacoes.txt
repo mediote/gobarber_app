@@ -37,3 +37,7 @@ PADRÕES DE ESTILO
  yarn add yup / yarn add -D @types/yup
  yarn add axios
  yarn add @react-native-community/async-storage
+ yarn add @react-native-community/datetimepicker
+ yarn add date-fns
+ yarn add react-native-image-picker
+
